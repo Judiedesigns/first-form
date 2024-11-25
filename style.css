@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Instrument Sans", sans-serif;
+}
+
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  width: 476px;
+  height: auto;
+  border-radius: 6px;
+  background: white;
+  box-shadow: 0px 1px 12px 0px rgba(10, 57, 176, 0.10);
+  padding: 24px;
+  border: 1px solid #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 1.5rem;
+}
+
+.title {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0.25rem;
+}
+
+.title h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #191919;
+}
+
+.title p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #344054;
+}
+
+form {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  row-gap: 1rem;
+}
+
+.input-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px ;
+}
+
+.input-container label{
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+
+.input-container input {
+  padding: 14px 16px;
+  border-radius: 4px;
+  border: 1px solid #98A2B3 ;
+  outline: none;
+}
+
+input:focus {
+  border: 1px solid #196CFF;
+}
+
+.forget-password {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 8px;  
+}
+
+button {
+  background: #196CFF;
+  outline: none;
+  width: 100%;
+  /* height: auto; */
+  cursor: pointer;
+  border: none;
+  padding: 0.75rem;
+  color: #ffff;
+  font-weight: 500;
+  border-radius: 0.25rem;
+}
+
+/* .last-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  row-gap: 1.5rem;
+} */
+ 
+.google-btn {
+  width: 100%;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+  border: 1px solid #D0D0FD;
+  column-gap: 8px;
+  border-radius: 0.25rem;
+
+}
+.google-btn img {
+  height: 1.25rem;
+  width: 1.25rem;
+}
+
+.google-btn p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.bottom-text {
+  text-align: center;
+  margin: 0 auto; 
+} 
+
+.bottom-text p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: #1D2939;
+}
+
+.bottom-text p a {
+  text-decoration: none;
+  color: #196CFF;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 550px) {
+  .container {
+    width: 90%;
+    padding: 24px 12px; 
+  }
+
+}
